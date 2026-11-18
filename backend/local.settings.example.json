@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "PRISM_ENV": "local",
+    "PRISM_STORAGE_CONNECTION_STRING": "UseDevelopmentStorage=true",
+    "PRISM_KEY_VAULT_URI": "",
+    "PRISM_TRANSCRIPTION_PROVIDER": "fake",
+    "PRISM_GENERATION_PROVIDER": "fake"
+  },
+  "Host": {
+    "CORS": "http://localhost:4280"
+  }
+}

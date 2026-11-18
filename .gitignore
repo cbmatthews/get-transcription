@@ -1,0 +1,28 @@
+# Build output
+.build/
+frontend/dist/
+frontend/node_modules/
+
+# Python
+backend/.venv/
+backend/.python_packages/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Local secrets / settings
+backend/local.settings.json
+*.env
+.env*
+
+# Azurite local storage
+__azurite_db_*.json
+__blobstorage__/
+__queuestorage__/
+
+# Editors / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
